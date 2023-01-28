@@ -1,0 +1,36 @@
+@import "menu.scss";
+@import "sidemenu.scss";
+
+
+body{
+    background-color: $dark;
+}
+
+
+@for $i from 1 through 4{
+    .cocuk-#{$i}{
+        @if $i== 2{
+            background-color: yellow;
+            color: blue;
+
+        } @else if $i == 1 {
+            background-color: red;
+            color: white;
+        } @else {
+            background-color: aqua;
+            color: blue;
+
+        }
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+$sizes: 40px, 50px, 70px;
+
+
+@each $size in $sizes{
+    .font-#{$size}{
+        font-size: $size;
+    }
+}

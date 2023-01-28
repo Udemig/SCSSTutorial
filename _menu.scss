@@ -1,0 +1,44 @@
+@import 'color.scss';
+
+.btn {
+    border: none;
+    padding: 10px +5;
+    background-color: $secondary-color;
+    border-radius: $border-radius;
+    outline: none;
+}
+
+@mixin border-radius($radius){
+    border-radius: $radius * 2;
+}
+
+nav {
+    background-color: $darker;
+    border-radius: $border-radius;
+    ul{
+        background-color: $darkest;
+        margin: 20px;
+        padding: 10px;
+        li{
+            display: inline;
+            background-color: $primary-color;
+            margin: 10px - 3;
+            padding: 10px / 2;
+            a{
+                text-decoration: none;
+                @extend .btn;
+                background-color: red;
+                color: white;
+                @include border-radius(10px);
+
+                &:hover{
+                    background-color: darkred;
+                }
+            }
+        }
+    }
+
+    button {
+        @extend .btn;
+    }
+}

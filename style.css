@@ -1,0 +1,75 @@
+.btn, nav button, nav ul li a {
+  border: none;
+  padding: 15px;
+  background-color: #2ea1ae;
+  border-radius: 5px;
+  outline: none;
+}
+
+nav {
+  background-color: #337a40;
+  border-radius: 5px;
+}
+nav ul {
+  background-color: rgba(35, 187, 192, 0.6941176471);
+  margin: 20px;
+  padding: 10px;
+}
+nav ul li {
+  display: inline;
+  background-color: #249f19;
+  margin: 7px;
+  padding: 10px/2;
+}
+nav ul li a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+}
+nav ul li a:hover {
+  background-color: darkred;
+}
+body {
+  background-color: #d1b0b0;
+}
+
+.cocuk-1 {
+  background-color: red;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cocuk-2 {
+  background-color: yellow;
+  color: blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cocuk-3 {
+  background-color: aqua;
+  color: blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.cocuk-4 {
+  background-color: aqua;
+  color: blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.font-40px {
+  font-size: 40px;
+}
+
+.font-50px {
+  font-size: 50px;
+}
+
+.font-70px {
+  font-size: 70px;
+}/*# sourceMappingURL=style.css.map */
